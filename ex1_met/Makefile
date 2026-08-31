@@ -14,4 +14,4 @@ $(OUTPUT): testMET.cpp $(LIB)
 	$(CXX)  testMET.cpp -L. -lSimpleMET -Wl,-rpath,. -o $(OUTPUT)
 
 clean:
-	rm -f *.o $(LIB) $(OUTPUT)
+	rm -f *.o *.so $(OUTPUT)

@@ -1,8 +1,6 @@
 #ifndef SIMPLEMET_H
 #define SIMPLEMET_H
 
-#include <cmath>
-
 class SimpleMET {
   public:
     SimpleMET();
@@ -18,6 +16,7 @@ class SimpleMET {
   private:
     double metx_;
     double mety_;
+    
 }; 
 
 #endif

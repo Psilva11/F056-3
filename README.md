@@ -5,7 +5,9 @@ Repositório para atividade 3 de F056.
 
 ---
 
-## Exercício 1
+## Compilação
+
+Para cada exercício
 Compile com:
 ```bash
 make
