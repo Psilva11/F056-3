@@ -7,7 +7,8 @@ Repositório para atividade 3 de F056.
 
 ## Compilação
 
-Para cada exercício
+Para cada exercício, entre na pasta respectiva.  
+
 Compile com:
 ```bash
 make
