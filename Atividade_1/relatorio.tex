@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+
+\title{Meu Relatório \LaTeX\ }
+\author{Pedro H. Pereira da Silva}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+Neste relatório veremos resumidamente 3 conceitos vistos em aula no formato de lista. Além disso, iremos ver a aplicação da ferramenta \textbf{BibTeX}  que serve como gerenciador de referências bibliogŕaficas.
+
+    \subsection{Conceitos}
+    Seguimos então para os conceitos:
+    \begin{enumerate}[label=\bf{\Roman*}.]
+        \item \textbf{Shell:} \\
+        Programa de sistemas Unix/Linux que forma interface entre usuários e o sistema. \\
+        Por exemplo, o comando a seguir utiliza de \textit{pipes} (|) para buscar arquivos contendo os termos "prmpt" e "pdf" de forma \textit{case insensitive} dentre todos os arquivos listados na pasta com os termos encontrados coloridos.
+        
+        \texttt{ls | sort | grep --color=always -i prmpt | grep --color=always -i PDF | more}
+
+        \item \textbf{Git:} \\
+        É um sistema de controle de versão open-source. Através dessa ferramenta podemos controlar e organizar versões de códigos, além de poder fazer conexão direta de um repositório online com pasta local, alterando ambos através dos então chamados "commits".
+
+        \item \textbf{LaTeX:} \\
+        A ferramenta utilizada para escrever artigos científicos e a que estamos utilizando, o famoso \LaTeX. Através dele podemos utilizar diversos "truques" que diminuem imensamente a quantidade de horas de trabalho e de dor de cabeça. \\
+        Vejamos algumas de suas utilidades:
+        \begin{enumerate}[label=\roman*.]
+            \item Hyperlinks: \\
+            Através do pacote "\textit{hyperref}" podemos criar hyperlinks como: \href{https://github.com/dune-mdias/F056/tree/main}{Site da Matéria.}
+            \item Expressões Matemáticas: \\
+            \begin{equation}
+            V_{eff} \ = \ -\frac{4}{3}\frac{\alpha_{s}(r)\hbar c}{r} \ + \ kr \\
+            \end{equation}
+            \begin{equation}
+            \frac{\partial\rho}{\partial t} \ + \ \nabla \cdot \vec{J} \ =  \ 0 \\
+            \end{equation}
+            \begin{equation}
+            i\hbar \frac{\partial}{\partial t} \psi(x,t) = \hat{H} \psi(x,t) \\
+            \end{equation} 
+            \begin{equation}
+            \frac{dN}{d\phi} \propto 1 \ + \ 2\sum_{n=1}^{\infty}\nu_ncos[n(\phi-\Psi_n)] \
+            \cite{KALWEIT:2023ll}
+            \end{equation}
+            \item Listas: \\
+            Exatamente o que está sendo feito.
+        \end{enumerate}
+    \end{enumerate}
+
+\section{Conclusão}
+Agora faremos a conclusão. Para isso iremos trabalhar com troubleshooting de um problema que nós iremos criar.
+
+\bibliographystyle{unsrt}
+\bibliography{referencias}
+\end{document}

@@ -1,18 +1,11 @@
-# Atividade 3 - F056
+# Métodos Computacionais em Física de Altas Energias - F056
 
-Repositório para atividade 3 de F056.
-**Aluno:** Pedro Henrique Silva (RA: 212389)
+Repositório para as atividades de F056, <br>
+**Aluno:** Pedro Henrique Pereira da Silva **(RA: 212389)**
 
 ---
 
 ## Compilação
 
-Para cada exercício
-Compile com:
-```bash
-make
-```
-Limpe com:
-```bash
-make clean
-```
+Para atividades com mais de um exercício haverá um **README* na respectiva pasta com instruções para compilar os exercícios.
+
