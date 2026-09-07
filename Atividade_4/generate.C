@@ -11,7 +11,7 @@ void generate(){
   double x;
   t->Branch("x", &x, "x/D");
 
-  TRandom rnd(0);
+  TRandom3 rnd(0);
   for (int i = 0; i < 1000; i++) {
     x = rnd.Gaus(0, 1);
     t->Fill();
@@ -20,5 +20,5 @@ void generate(){
   f->cd();
   t->Write();
   f->Close();
-  
+
 }
