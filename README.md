@@ -7,5 +7,5 @@ Repositório para as atividades de F056, <br>
 
 ## Compilação
 
-Para atividades com mais de um exercício haverá um **README* na respectiva pasta com instruções para compilar os exercícios.
+Para atividades com mais de um exercício haverá um **README** na respectiva pasta com instruções para compilar os exercícios.
 
