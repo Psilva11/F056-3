@@ -1,0 +1,17 @@
+! ---- Configuracao basica do processo ----
+Beams:idA = 2212    ! Colisao pp
+Beams:idB = 2212    ! Colisao pp
+Beams:eCM = 13000.  ! LHC Run2, 13 TeV
+
+! ---- Funcoes de estrutura partonicas ----
+! Default.
+
+! ---- Producao de Z(->bb) + jatos ----
+WeakZ0:gmZmode = 2              ! So Z, sem gamma*
+WeakSingleBoson:ffbar2gmZ = on
+
+23:onMode = off                 ! Desliga todos decaimentos
+23:onIfAny = 5 -5               ! Forca Z-> bbbar
+
+! ---- Quantidade de eventos ----
+Main:numberOfEvents = 1000

@@ -1,0 +1,17 @@
+! ---- Configuracao basica do processo ----
+Beams:idA = 2212    ! Colisao pp
+Beams:idB = 2212    ! Colisao pp
+Beams:eCM = 13000.  ! LHC Run2, 13 TeV
+
+! ---- Funcoes de estrutura partonicas ----
+! Default.
+
+! ---- Producao de ttbar ----
+Top:gg2ttbar = on
+Top:qqbar2ttbar = on
+
+24:onMode = off                 ! Desliga todos decaimentos
+24:onIfAny = 1 2 3 4 11 13 15   ! Liga decaimento W hadronico ou leptonico
+
+! ---- Quantidade de eventos ----
+Main:numberOfEvents = 1000

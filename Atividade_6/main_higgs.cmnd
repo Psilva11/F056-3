@@ -1,0 +1,17 @@
+! ---- Configuracao basica do processo ----
+Beams:idA = 2212    ! Colisao pp
+Beams:idB = 2212    ! Colisao pp
+Beams:eCM = 13000.  ! LHC Run2, 13 TeV
+
+! ---- Funcoes de estrutura partonicas ----
+! PDF:pSet = LHAPDF6:cteq6l1 (testei e não tinha instalado. usando deafult)
+
+! ---- Producao do Higgs ----
+HiggsSM:gg2H = on   ! fusao de gluons, gg -> H (canal dominante no LHC)
+25:m0 = 125.0       ! massa do Higgs em GeV
+
+25:onMode = off       ! Desliga todos os decaimentos
+25:onIfMatch = 5 -5   ! Liga apenas o canal H -> b bbar que é o canal de maior BR segundo pdg (~53%)
+
+! ---- Quantidade de eventos ---
+Main:numberOfEvents = 1000  ! Gera 1000 eventos

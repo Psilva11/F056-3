@@ -1,0 +1,14 @@
+! ---- Configuracao basica do processo ----
+Beams:idA = 2212    ! Colisao pp
+Beams:idB = 2212    ! Colisao pp
+Beams:eCM = 13000.  ! LHC Run2, 13 TeV
+
+! ---- Funcoes de estrutura partonicas ----
+! Default.
+
+! ---- Producao de bbbar por QCD (background dominante) ----
+HardQCD:hardbbbar = on
+PhaseSpace:pTHatMin = 20.   ! Corte de pT no espaço de fase
+
+! ---- Quantidade de eventos ----
+Main:numberOfEvents = 1000
